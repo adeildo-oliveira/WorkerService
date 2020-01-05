@@ -1,3 +1,4 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/urbut5r45bv7c9cq?svg=true)](https://ci.appveyor.com/project/adeildo-oliveira/workerservice)
 # Criando um serviço no Ubuntu (Linux)
 No Ubuntu (Linux) precisamos instalar o runtime do **Asp.Net Core** para que o nosso serviço consiga executar.
 
