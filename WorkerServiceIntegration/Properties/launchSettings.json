@@ -1,0 +1,10 @@
+﻿{
+  "profiles": {
+    "WorkerServiceIntegrationCli360": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
