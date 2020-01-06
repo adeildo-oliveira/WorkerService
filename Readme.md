@@ -44,22 +44,22 @@ sudo systemctl daemon-reload
 
 Precisamos também, habilitar o serviço.
 ```
-sudo systemctl enable testapp.service
+sudo systemctl enable NomeDoMeuServico.service
 ```
 
 Para mostrar o status do serviço, podemos usar o seguinte comando.
 ```
-sudo systemctl status testapp
+sudo systemctl status NomeDoMeuServico
 ```
 
 Por fim, iniciar o serviço.
 ```
-sudo systemctl start testapp.service
+sudo systemctl start NomeDoMeuServico.service
 ```
 
 E para visualizar o log de execução.
 ```
-sudo journalctl -u testapp
+sudo journalctl -u NomeDoMeuServico
 ```
 
 No seu projeto WorkerService, você precisa informar o tipo do sistema operacional, no nosso caso, Linux.
@@ -92,15 +92,15 @@ Exemplo:
    ```
 2. Iniciando o Serviço
     ```
-    sc start DemoService
+    sc start MeuServico
     ```
 3. Parando o serviço
     ```
-    sc stop DemoService
+    sc stop MeuServico
     ```
 4. Excluindo o serviço
     ```
-    sc delete DemoService
+    sc delete MeuServico
     ```
 Para mais detalhes, acesse [aqui](https://codeburst.io/create-a-windows-service-app-in-net-core-3-0-5ecb29fb5ad0
 ).
